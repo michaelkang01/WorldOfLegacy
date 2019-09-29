@@ -3,36 +3,37 @@ body {
     background-color: rgba(26, 28, 28);
 }
 .banner {
-    margin: 0%;
-    width: 100%;
-    height: auto;
+    left: -.8vw;
+    width: 99.4vw;
+    height: 10vh;
     background-color: none;
-    padding-top: 24px;
     text-align: center;
     font-size: 2vw;
-    top: .25vw;
     color: darkgray;
     float: center;
     position: relative;
+
 }
+
 
 
 .navbar {
     overflow: hidden;
     background-color: #333;
-    position: relative; /* Set the navbar to fixed position */
-    top: 1.5vw; /* Position the navbar at the top of the page */
-    left: -.8%;
-    width: 101.1%; /* Full width */
+    position: relative;
+    left: -.8vw;
+    width: 99.4vw; 
   }
   
   /* Links inside the navbar */
   .navbar a {
     float: left;
-    display: flex;
+    display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 1vw 7.03%;
+    font-size: .8vw;
+    padding: .8vw;
+    width: 18.27vw;
     text-decoration: none;
   }
   
@@ -44,6 +45,15 @@ body {
   
   /* Main content */
   .main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    margin: 10vw;
+    margin-bottom: 10vh;
+    margin-top: 4vh;
+    background-color: rgb(112, 112, 108);
+    width: 100vw - 2vw;
+    height: 1280px;
+  }
+
+  footer {
+    text-align: center;
   }
 
